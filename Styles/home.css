@@ -1,0 +1,69 @@
+*{
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.cake {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+.text {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  width: 300px;
+  background-color: var(--white-color);
+}
+.hero {
+  margin: 0px 50px;
+}
+.image-card {
+  margin: 50px 25px;
+}
+.template {
+  position: absolute;
+  height: 500px;
+  width: 89%;
+  top: 330px;
+  left: 25px;
+  margin: 10px 50px;
+}
+.btn {
+  text-align: center;
+  text-decoration: none;
+}
+.body-cart{
+  margin-bottom: 50px;
+  margin-top: 680px;
+  display: flex;
+  justify-content: space-around;
+}
+.body-cart-container{
+  padding: 5px;
+  display: flex;
+  width: 500px;
+  height: 300px;
+  box-shadow: 1px 1px 10px var(--black-color);
+}
+.body-cart-image{
+  height: 100%; 
+  width: 250px;
+}
+.body-cart-heading{
+  text-align: center;
+  margin-top: 80px;
+  display: block;
+  margin-right: auto;
+}
+.para-description{
+  margin-top: 20px;
+  text-align: center;
+}
+.btn-class{
+  margin-top: 20px;
+  text-align: center;
+}
+.btn:hover{
+  color:var(--white-color);
+  background-color: var(--blue-color);
+}

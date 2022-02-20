@@ -1,8 +1,6 @@
 @import url(Styles/home.css);
 @import url(Styles/Login.css);
+@import url(Styles/Cart.css);
+@import url(Styles/wishlist.css);
+@import url(Styles/var.css);
 
-
-*{
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }

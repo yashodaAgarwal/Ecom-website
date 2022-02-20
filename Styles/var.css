@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-*{
-    font-size: 1rem;
-    line-height: 1.3rem;
+* {
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
-:root{
-    --gray-color: grey;
+:root {
+  --gray-color: grey;
 }

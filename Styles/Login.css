@@ -53,6 +53,8 @@ button:hover {
 }
 .remember-me {
   margin-right: 70px;
+  justify-content: space-between ;
+  width: 100%;
 }
 a {
   color: var(--blue-color);

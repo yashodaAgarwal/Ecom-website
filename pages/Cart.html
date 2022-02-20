@@ -1,0 +1,95 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://yashoda-component-ui.netlify.app/main.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/86189ed851.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../main.css" />
+    <title>Ecom | Yashoda</title>
+  </head>
+  <body>
+    <nav class="flex nav-item">
+      <div class="left-nav flex">
+        <a href="" class="nav-heading">Cake Shop</a>
+        <input class="search-bar" placeholder="Search" />
+      </div>
+      <div class="right-nav flex">
+        <button
+          onClick="window.location.href='./Login.html';"
+          class="btn btn-round"
+        >
+          Login
+        </button>
+        <button
+          onclick="window.location.href='./Signup.html';"
+          class="btn btn-round"
+        >
+          Signup
+        </button>
+        <button
+          class="badge-button badge-lg" onClick="window.location.href='./wishlist.html';">
+          <i class="fas fa-heart fa-2x"></i>
+          <span class="icon-button-badge flex center icon-xl">16</span>
+        </button>
+        <button class="badge-button badge-lg"
+        onClick="window.location.href='./Cart.html';"
+        >
+          <i class="fas fa-shopping-cart fa-2x"></i>
+          <span class="icon-button-badge flex center icon-xl">16</span>
+        </button>
+      </div>
+    </nav>
+<h1 class="mycart-heading">My Cart</h1>
+  <div class="mycart-container">
+    <div>
+      <img class="mycart-image" src="https://cdn.wallpapersafari.com/76/54/NGIJ2k.jpg" alt="" />
+    </div>
+    <div class="mycart-description">
+        <div class="short-description">
+      <p>Men's premium jacket</p>
+      <h4 class="price">$2000</h4>
+      <small class="off-price">50% off</small>
+      <p>
+        Quantity <a class="plus-minus" href="">+</a>
+        <input class="number-of-items" type="text" placeholder="" value="1" /> <a class="plus-minus" href="">-</a>
+      </p></div>
+      <button class="btn-remove">Remove from Cart</button>
+      <button class="btn-wishlist">Move to Wishlist</button>
+    </div>
+  </div>
+
+  <div class="price-container">
+    <h3 class="price-details-heading">PRICE DETAILS</h3>
+    <hr />
+    <div class="item">
+      <p class="list">Price of 2 Items</p>
+      <span class="price-items">400$</span>
+    </div>
+    <div class="item">
+      <p class="list">Discount</p>
+      <span class="price-items">-10$</span>
+    </div>
+    <div class="item">
+      <p class="list">Delievery charges</p>
+      <span class="price-items">10$</span>
+    </div>
+    <hr />
+    <div class="item">
+      <p class="list">Total Amount</p>
+      <span class="price-items">400$</span>
+    </div>
+    <hr />
+    <div class="item saved-money">
+      <p class="list">You will save 10$ in this order</p>
+    </div>
+    <button class="btn-place-order">Place Order</button>
+  </div>
+</body>
+</html>

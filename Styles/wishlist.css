@@ -8,3 +8,6 @@
   padding-top: 20px;
   font-size: 1.87rem;
 }
+.nav-item{
+  background-color: var(--gray-color);
+}
